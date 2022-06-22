@@ -8,20 +8,40 @@
       rel="stylesheet"
       type="text/css"
       media="screen"
-      href="src/style/main.css"
+      href="/src/style/style.css"
     />
-    <title>main page</title>
+    <title>Authorization</title>
   </head>
-  <header>
-    <div class="scrollmenu">
-      <a href="#Home">Home</a>
-      <a href="#Leader Board">Leader Board</a>
-      <a href="#Rounds">Rounds</a>
-    </div>
-  </header>
+
   <body>
-    <a href="/src/content/admin.html">admin</a>
-    
+    <div class="auth">
+      <form id="form" action="./src/content/user.html">
+        <h2>Логин</h2>
+        <input
+          id="username"
+          class="input"
+          name="username"
+          required
+          minlength="3"
+          maxlength="15"
+          placeholder="Логин"
+          onblur="onblurlogin()"
+        />
+        <span id="error" hidden>invalid login!</span><br />
+        <input
+          id="password"
+          class="input"
+          name="password"
+          type="password"
+          placeholder="Пароль"
+          onblur="onblurpass()"
+        />
+        <span id="errorpass" hidden>invalid password!</span><br />
+        <button id="abtn" class="btn" type="submit" >Войти</button><br />
+        <input type="submit" class="btn" value="Enter" />
+        <a href="./src/content/register.html">Нет аккаунта? Регистрация</a>
+      </form>
+    </div>
   </body>
-  <script src="src/js/index.js"></script>
+  <script src="./src/js/index.js"></script>
 </html>

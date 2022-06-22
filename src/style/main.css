@@ -29,3 +29,21 @@ div.scrollmenu {
   .btn:hover {
     background-color: #F24C4C;
   }
+
+  div.create{
+    box-sizing: border-box;
+    width: 431px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 187px;
+    padding: 70px;
+    border: 1px solid #d3d3d3;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+  }

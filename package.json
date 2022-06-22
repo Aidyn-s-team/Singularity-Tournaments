@@ -4,8 +4,8 @@
   "description": "auth project",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "*.html -p 3000",
-    "build": "build *.html",
+    "start": "parcel *.html -p 3000",
+    "build": "parcel build *.html",
     "eslint": "eslint",
     "stylelint": "stylelint \"**/*.css\""
   },
@@ -16,5 +16,8 @@
     "eslint-config-google": "^0.14.0",
     "stylelint": "^14.8.2",
     "stylelint-config-standard": "^25.0.0"
+  },
+  "dependencies": {
+    "parcel": "^2.6.2"
   }
 }
