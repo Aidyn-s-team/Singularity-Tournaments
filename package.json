@@ -1,0 +1,22 @@
+{
+  "name": "auth1",
+  "version": "1.0.0",
+  "description": "auth project",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel *.html -p 3000",
+    "build": "parcel build *.html",
+    "eslint":"eslint",
+    "stylelint": "stylelint \"**/*.css\""
+
+  },
+  "author": "Lazzet",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "parcel": "^2.5.0",
+    "stylelint": "^14.8.2",
+    "stylelint-config-standard": "^25.0.0"
+  }
+}

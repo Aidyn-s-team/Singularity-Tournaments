@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="/src/style/style.css"
+    />
+    <title>Authorization</title>
+  </head>
+
+  <body>
+    <div class="auth">
+      <form id="form">
+        <h2>Логин</h2>
+        <input
+          id="username"
+          class="input"
+          name="username"
+          required
+          minlength="3"
+          maxlength="15"
+          placeholder="Логин"
+          onblur="onblurlogin()"
+        />
+        <span id="error" hidden>invalid login!</span><br />
+        <input
+          id="password"
+          class="input"
+          name="password"
+          type="password"
+          placeholder="Пароль"
+          onblur="onblurpass()"
+        />
+        <span id="errorpass" hidden>invalid password!</span><br />
+        <button id="abtn" class="btn" type="submit">Войти</button><br />
+        <a href="src/content/register.html">Нет аккаунта? Регистрация</a>
+      </form>
+    </div>
+  </body>
+  <script src="src/js/index.js"></script>
+</html>

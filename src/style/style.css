@@ -1,0 +1,88 @@
+.invalid {
+  border-color: red;
+  visibility: visible;
+}
+
+span {
+  color: red;
+}
+
+.auth {
+  box-sizing: border-box;
+  width: 431px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 187px;
+  padding: 70px;
+  border: 1px solid #d3d3d3;
+  border-radius: 20px;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.register {
+  box-sizing: border-box;
+  width: 431px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 44px;
+  border: 1px solid #d3d3d3;
+  border-radius: 20px;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.register-head {
+  margin-top: 80px;
+}
+
+.btn {
+  box-sizing: border-box;
+  width: 300px;
+  height: 37px;
+  color: white;
+  background: #ea4335;
+  border-radius: 10px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  margin-bottom: 70px;
+  margin-top: 20px;
+}
+
+input,
+button {
+  outline: none;
+  border: none;
+  border-bottom: 0.5px solid #6991f3;
+}
+
+.input {
+  margin: 20px;
+  width: 250px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+input:focus {
+  border: 1px solid #469962;
+}
+
+a {
+  margin: 10px;
+}

@@ -1,0 +1,31 @@
+div.scrollmenu {
+    background-color: #293462;
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+  }
+  
+  div.scrollmenu a {
+    flex: 1;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #F24C4C;
+  }
+
+  button.btn {
+    background-color: #293462;
+    overflow: auto;
+    white-space: nowrap;
+    margin: 50px;
+    padding: 20px;
+    color: white;
+    border: 0px;
+  }
+  .btn:hover {
+    background-color: #F24C4C;
+  }
