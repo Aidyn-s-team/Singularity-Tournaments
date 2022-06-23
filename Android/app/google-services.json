@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "197573016843",
+    "firebase_url": "https://singularity-tournament-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "singularity-tournament",
+    "storage_bucket": "singularity-tournament.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197573016843:android:32eb5e2127c8b85bf0360e",
+        "android_client_info": {
+          "package_name": "kz.home.singularitytournaments"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197573016843-hdvjddihctjeibg597cv7ri7ic637kbt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlBCQprFVvpCPkGh69N9zQ_-TEkLwkJFw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "197573016843-hdvjddihctjeibg597cv7ri7ic637kbt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/drawable/back_1.xml" value="0.1845" />
+        <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/drawable/background_rectangle.xml" value="0.2105" />
+        <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/drawable/dialog_background.xml" value="0.1955" />
+        <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/drawable/round_button.xml" value="0.1845" />
+        <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/layout/activity_main.xml" value="0.253125" />
+        <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/layout/activity_start.xml" value="0.253125" />
+        <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/layout/dialog_create_tournament.xml" value="0.253125" />
+        <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/layout/fragment_all_rounds.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/layout/fragment_facts.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/layout/fragment_login.xml" value="0.264" />
+        <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/layout/fragment_moderator_tournament.xml" value="0.253125" />
+        <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/layout/fragment_registration.xml" value="0.264" />
+        <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/layout/fragment_results.xml" value="0.253125" />
+        <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/layout/fragment_rounds.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/layout/fragment_tournament.xml" value="0.29683698296836986" />
+        <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/layout/item_match.xml" value="0.253125" />
+        <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/layout/item_round_all.xml" value="0.25407608695652173" />
+        <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/layout/item_round_player.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/layout/item_tournament.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/layout/item_tournament_choose.xml" value="0.253125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
