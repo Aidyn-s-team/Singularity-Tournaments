@@ -10,23 +10,24 @@
         android:layout_height="wrap_content"
         app:cardCornerRadius="10dp"
         android:elevation="30dp"
-        android:backgroundTint="@color/cardView"
-        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/white"
+
+        android:layout_marginEnd="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent" >
+        app:layout_constraintBottom_toBottomOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent" >
 
             <TextView
-                android:id="@+id/roundNumberIs"
+                android:id="@+id/matchNumberIs"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Round "
-                android:textColor="@color/red"
+                android:text="Match "
+                android:textColor="@color/yellow"
                 android:textSize="22sp"
                 android:textStyle="bold"
                 android:layout_marginTop="10dp"
@@ -35,15 +36,15 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/round_number"
+                android:id="@+id/match_number"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 tools:text="1"
-                android:textColor="@color/red"
+                android:textColor="@color/yellow"
                 android:textSize="22sp"
                 android:textStyle="bold"
                 android:layout_marginTop="10dp"
-                app:layout_constraintStart_toEndOf="@+id/roundNumberIs"
+                app:layout_constraintStart_toEndOf="@+id/matchNumberIs"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <androidx.constraintlayout.widget.Guideline
@@ -63,7 +64,7 @@
                 android:layout_marginTop="15dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="@+id/guideline"
-                app:layout_constraintTop_toBottomOf="@+id/round_number" />
+                app:layout_constraintTop_toBottomOf="@+id/matchNumberIs" />
 
             <TextView
                 android:id="@+id/VSplayer"
@@ -75,7 +76,7 @@
                 android:layout_marginTop="15dp"
                 app:layout_constraintStart_toStartOf="@+id/guideline"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/round_number" />
+                app:layout_constraintTop_toBottomOf="@+id/matchNumberIs" />
 
             <TextView
                 android:id="@+id/VS"
@@ -86,58 +87,11 @@
                 android:textSize="22sp"
                 android:textStyle="bold"
                 android:layout_marginTop="15dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/round_number" />
-
-            <TextView
-                android:id="@+id/winnerIS"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Winner is?"
-                android:textColor="@color/blue"
-                android:textSize="22sp"
-                android:layout_marginTop="15dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/VS" />
-
-            <RadioGroup
-                android:id="@+id/radio_group"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/winnerIS"
-                app:layout_constraintBottom_toBottomOf="@+id/winnerIS"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/radio_player"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-                <RadioButton android:id="@+id/radio_playerVS"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="160dp" />
-            </RadioGroup>
-
-            <Button
-                android:id="@+id/submit_result_button"
-                android:layout_width="0dp"
-                android:layout_height="60dp"
-                android:layout_marginStart="120dp"
-                android:layout_marginEnd="120dp"
-                android:layout_marginTop="15dp"
                 android:layout_marginBottom="10dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                android:background="@drawable/background_rectangle"
-                app:backgroundTint="@null"
-                android:text="Submit"
-                android:textColor="@color/red"
-                style="@style/button"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/winnerIS"
-                app:layout_constraintBottom_toBottomOf="parent" />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/matchNumberIs"
+                app:layout_constraintBottom_toBottomOf="parent"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

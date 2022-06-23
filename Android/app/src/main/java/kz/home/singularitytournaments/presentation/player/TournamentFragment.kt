@@ -7,10 +7,12 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kz.home.singularitytournaments.R
+import kz.home.singularitytournaments.domain.User
 import kz.home.singularitytournaments.presentation.tournamentList
 
 class TournamentFragment(
-    private val tChooseAdapter: TournamentAdapter
+    private val tChooseAdapter: TournamentAdapter,
+    val user: User
 ) : Fragment(R.layout.fragment_tournament) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

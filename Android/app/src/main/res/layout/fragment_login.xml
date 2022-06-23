@@ -13,8 +13,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:text="Логин"
-        android:textColor="@color/black"
-        android:textSize="22sp"
+        style="@style/title_text"
+        android:textColor="@color/blue"
         app:layout_constraintVertical_bias="0.286"/>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -37,16 +37,18 @@
             android:layout_height="match_parent"
             android:imeOptions="actionDone"
             android:inputType="text"
+            android:textSize="18sp"
             android:singleLine="true" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/password_box"
         android:layout_width="0dp"
-        android:layout_height="45dp"
+        android:layout_height="55dp"
         android:hint="Пароль"
         app:boxBackgroundColor="@color/white"
         style="@style/LoginTextInputLayoutStyle"
+        app:endIconMode="password_toggle"
         android:layout_marginTop="25dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
@@ -59,7 +61,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:imeOptions="actionDone"
-            android:inputType="text"
+            android:textSize="18sp"
+            android:inputType="textPassword"
             android:singleLine="true" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -74,6 +77,7 @@
         android:textColor="@color/white"
         android:background="@drawable/background_rectangle"
         app:backgroundTint="@null"
+        style="@style/button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password_box" />
@@ -84,6 +88,7 @@
         android:layout_height="wrap_content"
         android:text="@string/no_account"
         android:textColor="@color/blue_link"
+        android:textSize="16sp"
         android:layout_marginTop="35dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/drawable/back_1.xml" value="0.1845" />
         <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/drawable/background_rectangle.xml" value="0.2105" />
         <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/drawable/dialog_background.xml" value="0.1955" />
+        <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/drawable/round_button.xml" value="0.1845" />
         <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/layout/activity_main.xml" value="0.253125" />
         <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/layout/activity_start.xml" value="0.253125" />
@@ -17,6 +19,8 @@
         <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/layout/fragment_results.xml" value="0.253125" />
         <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/layout/fragment_rounds.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/layout/fragment_tournament.xml" value="0.29683698296836986" />
+        <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/layout/item_match.xml" value="0.253125" />
+        <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/layout/item_round_all.xml" value="0.25407608695652173" />
         <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/layout/item_round_player.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/layout/item_tournament.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/tomir/Singularity-Tournaments/Android/app/src/main/res/layout/item_tournament_choose.xml" value="0.253125" />

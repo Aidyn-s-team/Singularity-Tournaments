@@ -2,7 +2,8 @@ package kz.home.singularitytournaments.presentation
 
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import kz.home.singularitytournaments.presentation.login.inputValue
+import kz.home.singularitytournaments.domain.User
+import kz.home.singularitytournaments.presentation.moderator.AllRoundsAdapter
 import kz.home.singularitytournaments.presentation.moderator.AllRoundsFragment
 import kz.home.singularitytournaments.presentation.moderator.ModeratorTournamentAdapter
 import kz.home.singularitytournaments.presentation.moderator.ModeratorTournamentFragment
@@ -16,20 +17,22 @@ class MainPagerAdapter(
     val showCreateDialog: () -> Unit,
     private val mTAdapter: ModeratorTournamentAdapter,
     private val TChooseAdapter: TournamentAdapter,
-    private val roundsAdapter: RoundsAdapter
+    private val roundsAdapter: RoundsAdapter,
+    private val user: User,
+    private val allRoundsAdapter: AllRoundsAdapter
     ) : FragmentStateAdapter(activity) {
     private val fragments = mutableListOf<Fragment>()
 
     init {
-        if (inputValue == "1") {
-            fragments.add(ModeratorTournamentFragment(mTAdapter, showCreateDialog = {showCreateDialog()}))
+        if (user.login == "admin") {
+            fragments.add(ModeratorTournamentFragment(mTAdapter, showCreateDialog = {showCreateDialog()}, user))
         }else{
-            fragments.add(TournamentFragment(TChooseAdapter))
+            fragments.add(TournamentFragment(TChooseAdapter, user))
         }
-        if (inputValue == "1") {
-            fragments.add(AllRoundsFragment())
+        if (user.login == "admin") {
+            fragments.add(AllRoundsFragment(allRoundsAdapter, user))
         }else{
-            fragments.add(RoundsFragment(roundsAdapter))
+            fragments.add(RoundsFragment(roundsAdapter, user))
         }
         fragments.add(ResultsFragment())
     }

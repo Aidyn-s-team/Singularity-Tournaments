@@ -22,6 +22,7 @@ class ModeratorTournamentViewHolder(inflater: LayoutInflater, parent: ViewGroup)
 
         startButton.setOnClickListener {
             Log.d(TAG, "Start")
+            //берем из турнира(айтем) список и создаем лист раундов
         }
         stopButton.setOnClickListener {
             Log.d(TAG, "Stop")

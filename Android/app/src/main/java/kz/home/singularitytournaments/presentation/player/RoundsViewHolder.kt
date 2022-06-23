@@ -1,7 +1,6 @@
 package kz.home.singularitytournaments.presentation.player
 
 import android.content.ContentValues.TAG
-import android.content.res.Resources
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -23,8 +22,8 @@ class RoundsViewHolder(inflater: LayoutInflater, parent: ViewGroup) : RecyclerVi
 
     fun bind(item: Round) {
         roundName.text = item.number.toString()
-        player.text = item.matches[0].player1?.name.toString()
-        playerVS.text = item.matches[0].player2?.name.toString()
+        player.text = item.matches[0].user1?.login.toString()
+        playerVS.text = item.matches[0].user2?.login.toString()
 
         submitResultButton.setOnClickListener {
 

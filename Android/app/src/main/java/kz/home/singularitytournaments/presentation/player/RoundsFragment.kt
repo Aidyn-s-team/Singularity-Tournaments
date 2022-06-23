@@ -8,11 +8,13 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kz.home.singularitytournaments.R
+import kz.home.singularitytournaments.domain.User
 import kz.home.singularitytournaments.presentation.roundsList
 import kz.home.singularitytournaments.presentation.tournamentList
 
 class RoundsFragment(
-    private val roundsAdapter: RoundsAdapter
+    private val roundsAdapter: RoundsAdapter,
+    val user: User
 ) : Fragment(R.layout.fragment_rounds) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

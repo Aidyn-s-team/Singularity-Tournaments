@@ -7,11 +7,13 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kz.home.singularitytournaments.R
+import kz.home.singularitytournaments.domain.User
 import kz.home.singularitytournaments.presentation.tournamentList
 
 class ModeratorTournamentFragment(
     private val tAdapter: ModeratorTournamentAdapter,
-    val showCreateDialog: () -> Unit
+    val showCreateDialog: () -> Unit,
+    val user: User
 ) : Fragment(R.layout.fragment_moderator_tournament) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

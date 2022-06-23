@@ -7,10 +7,12 @@
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabLayout"
         android:layout_width="match_parent"
-        android:layout_height="44dp"
+        android:layout_height="55dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:tabTextColor="@color/black" />
+        app:tabIndicatorColor="@color/yellow"
+        android:backgroundTint="@color/blue"
+        app:tabTextColor="@color/white" />
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/viewPager"
