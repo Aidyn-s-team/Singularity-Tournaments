@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Singularity Tournaments</string>
+    <string name="no_account"><u>Нет аккаунта? Регистрация</u></string>
+    <string name="back"><u>Вспомнили аккаунт? Назад</u></string>
+</resources>
